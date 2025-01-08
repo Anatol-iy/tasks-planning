@@ -8,7 +8,7 @@ import { Button } from "../Button/Button";
 import { getStatusFilter } from "../../redux/selectors";
 
 // Импортируем экшен для установки нового значения фильтра
-import { setStatusFilter } from "../../redux/FiltersSlice";
+import { setStatusFilter } from "../../redux/filtersSlice";
 
 // Импортируем стили для компонента
 import css from "./StatusFilter.module.css";
